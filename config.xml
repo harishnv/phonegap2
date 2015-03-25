@@ -12,22 +12,11 @@
     <description>
        Ask A Question
     </description>
-
-<icon src="{icon}" />
-<platform name="ios">
-  <icon src="themes/images/aaq_57.png" width="57" height="57" />
-  <icon src="themes/images/aaq_72.png" width="72" height="72" />
-  <icon src="themes/images/aaq_114.png" width="114" height="114" />
-  <icon src="themes/images/aaq_144.png" width="144" height="144" />
-</platform>
- 
-<platform name="android">
-  <icon src="themes/images/logo159_159.png" gap:density="ldpi" />
-  <icon src="themes/images/logo159_159.png" gap:density="mdpi" />
-  <icon src="themes/images/logo159_159.png" gap:density="hdpi" />
-  <icon src="themes/images/logo159_159.png" gap:density="xhdpi" />
-</platform>
-
+<icon src="icon.png" />
+<icon src="res/icon/ios/aaq_144.png" gap:platform="ios" width="144" height="144" />
+<icon src="res/icon/ios/aaq_72.png" gap:platform="ios" width="72" height="72" />
+<icon src="res/icon/ios/aaq_57.png" gap:platform="ios" width="57" height="57" />
+<icon src="res/icon/ios/aaq_114.png" gap:platform="ios" width="114" height="114" />
 
     <author href="https://build.phonegap.com" email="support@phonegap.com">
        Harish Satpute
