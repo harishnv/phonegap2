@@ -39,7 +39,7 @@ var oTable;
 	  count(url);
   	}
 		if(this.id==9){
-			alert("test");
+			//alert("test");
 	   aDataSet = [];
 	   url=server+"ask/email/questionlist_n.php?catid=9";
 	   $("#dynamic").css("overflow", "auto");
@@ -86,10 +86,10 @@ function count(url) {
 						
 				    var oData = oTable.fnGetData(this);
 				    //alert(server+"ask/videos/"+oData[2]+"/questions/"+oData[3]);
-				    alert(oData[1]);
+				   // alert(oData[1]);
 					$( "#four" ).html(oData[1]);
 					//http://video.co-learn.in/ask/videos/"+oData[2]+"/questions/"+oData[3]+"
-					$( "#three" ).html("<video width='100%' style='min-height:300px' controls><source 	src='"+server+"ask/videos/"+oData[2]+"/questions/"+oData[3]+"' type='video/mp4'>Your browser does not support the video tag.</video>");
+					$( "#three" ).html("<video width='100%' style='min-height:300px' controls autoplay><source 	src='"+server+"ask/videos/"+oData[2]+"/questions/"+oData[3]+"' type='video/mp4'>Your browser does not support the video tag.</video>");
 			    })
 
 		}
